@@ -37,4 +37,4 @@ def price(dayOfWeek, isOldOrYoung=False, isNight=False):
     # if isOldOrYoung:
     #     price += oldYoungDiscount
 
-    return price
+    return 0  # price
