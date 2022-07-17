@@ -6,9 +6,9 @@ def price(dayOfWeek, isOldOrYoung=False, isNight=False):
     dayOfWeek : str
         3 letters that encode the Day of the week.
     isOldOrYoung : boolean
-        Description of parameter `x`.
-    isNight : type
-        Description of parameter `x`.
+        Age segmentation parameter, True if the client is young or old, False otherwise. Default: False.
+    isNight : boolean
+        Time segmentation parameter, True for a night session, False otherwise. Default: False.
 
     Returns
     -------
