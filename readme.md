@@ -20,7 +20,7 @@ The tests are failing right now because you have to implement the methods to mak
 `pip3 install -qI pytest`
 
 ### Run command
-`pytest`
+`python -m pytest`
 
 ### Notes
 - pip's install path is not included in the PATH var by default, so without installing via `sudo -H`, pytest would be unaccessible.
