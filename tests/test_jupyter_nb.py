@@ -1,18 +1,10 @@
-import datetime
-from testbook import testbook
-import pytest
+# import datetime
+# from testbook import testbook
+# import pytest
+import ipynb.fs.full.nb  as notebook
 
+def test_func_value():
+    assert notebook.value() == 10
 
-# @testbook("nb.ipynb", execute=True)
-# def test_print(tb, capsys):
-#     say_hello = tb.ref("say_hello")
-#     say_hello()
-#     captured = capsys.readouterr()
-#     assert captured.out == "Hello!"
-
-
-@testbook("nb.ipynb", execute=True)
-def test_value(tb):
-    # with pytest.deprecated_call():
-    value = tb.ref("value")
-    assert value() == 0
+def test_class_Number() :
+    assert isinstance(notebook.Number(10), int)

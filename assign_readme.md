@@ -15,9 +15,9 @@ The tests are failing right now because you have to implement the methods to mak
 
 ### Setup command
 #### Linux
-`sudo -H pip3 install -qI pytest testbook ipykernel`
+`sudo -H pip3 install -qI pytest ipynb`
 #### Windows
-`pip3 install -qI pytest testbook ipykernel`
+`pip3 install -qI pytest ipynb`
 
 ### Run command
 `python -m pytest`
