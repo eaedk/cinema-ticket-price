@@ -13,3 +13,6 @@ def test_pandas() :
     # x = pd.DataFrame({"i": [0, 1, 2]})
     print(notebook.Number(10).df)
     assert 1 == 1
+
+def test_pi() :
+    assert notebook.pi == 3.14
