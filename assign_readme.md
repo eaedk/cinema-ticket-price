@@ -20,7 +20,8 @@ The tests are failing right now because you have to implement the methods to mak
 `pip3 install -qI pytest ipynb`
 
 ### Run command
-`python -m pytest`
+`python3 -m pytest` # Linux
+`python -m pytest` # Windows
 
 ### Notes
 - pip's install path is not included in the PATH var by default, so without installing via `sudo -H`, pytest would be unaccessible.
